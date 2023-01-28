@@ -59,7 +59,7 @@ public class Block {
     }
 
     @NonNull
-        public final byte[][] getDhape(int frameNumber) {
+        public final byte[][] getShape(int frameNumber) {
         return Shape.values()[shapeIndex].getFrame(frameNumber).as2ByteArray();
         }
 
