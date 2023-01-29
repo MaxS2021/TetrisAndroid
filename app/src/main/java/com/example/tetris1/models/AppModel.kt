@@ -1,13 +1,10 @@
-package com.example.tetris1
+package com.example.tetris1.models
 
 import android.graphics.Point
 import com.example.tetris1.constants.CellConstants
 import com.example.tetris1.constants.FieldConstants
 import com.example.tetris1.helper.array2dOfByte
-import com.example.tetris1.models.Block
 import com.example.tetris1.storage.AppPreferences
-import java.text.FieldPosition
-import javax.net.ssl.SSLEngineResult.Status
 
 class AppModel {
 
